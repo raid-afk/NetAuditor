@@ -1,0 +1,11 @@
+NetAudit-CLI  |  TCP inventory
+127.0.0.1  [127.0.0.1]  |  Python  |  2 ports
+Started 2026-11-25T16:24:26+00:00
+[############------------] 1/2 checked  |  1 open
+[########################] 2/2 checked  |  2 open
+
+PORT/TCP  EXPECTED SERVICE   PRIORITY  OBSERVED GREETING
+48847     Unknown            Review    -
+49785     Unknown            Review    NetAudit demo service 1.0
+open: 2
+Completed in 0.403 s  |  examples/local.html

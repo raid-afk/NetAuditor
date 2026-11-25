@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>NetAudit-CLI report</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0c141c;color:#e5eef4;
+font:16px/1.55 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:6vh 5vw}
+header{border-top:4px solid #56ddbb;padding-top:18px}small,dt{color:#97aeba}
+h1{font-size:clamp(2rem,6vw,4rem);margin:.15em 0;letter-spacing:-.045em}
+h2{font-size:1.25rem}dl{display:flex;gap:22px;flex-wrap:wrap;background:#142431;
+border:1px solid #28404b;padding:18px;border-radius:10px}dd{margin:4px 0;font-weight:650}
+section{overflow-x:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;
+padding:12px;border-bottom:1px solid #29404b}th,p{color:#adc1cb}code{overflow-wrap:anywhere}
+b{font-size:.85em;border-radius:6px;padding:3px 8px}.High{background:#613337}
+.Review{background:#544729}.Info{background:#1a4a43}footer{margin-top:2rem;color:#99b2bd}
+</style><main><header><small>NetAudit-CLI / TCP inventory</small>
+<h1>127.0.0.1</h1></header><dl><div><dt>Address</dt><dd>127.0.0.1</dd></div><div><dt>Started (UTC)</dt><dd>2026-11-25T16:24:26+00:00</dd></div><div><dt>Duration</dt><dd>0.403 s</dd></div><div><dt>Ports checked</dt><dd>2</dd></div><div><dt>Engine</dt><dd>Python</dd></div></dl><p>open 2</p>
+<h2>Open ports (2)</h2><section><table><thead><tr><th>Port</th><th>Expected service</th>
+<th>Review priority</th><th>Observed greeting</th></tr></thead><tbody>
+<tr><td>48847/tcp</td><td>Unknown</td><td><b class="Review">Review</b></td><td><code>—</code></td></tr><tr><td>49785/tcp</td><td>Unknown</td><td><b class="Review">Review</b></td><td><code>NetAudit demo service 1.0</code></td></tr></tbody></table></section>
+<footer>Priority reflects the usual purpose of the port. Confirm the service and intended exposure.
+A dash means no printable greeting was collected.</footer></main></html>
