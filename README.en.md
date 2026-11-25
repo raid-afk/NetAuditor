@@ -1,4 +1,4 @@
-# NetAudit-CLI
+# NetAuditor (NetAudit-CLI)
 
 [Français](README.md) · **English**
 
